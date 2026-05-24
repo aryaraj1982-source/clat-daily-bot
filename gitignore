@@ -1,0 +1,9 @@
+# Never commit these
+*.env
+.env
+secrets.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.mp3
