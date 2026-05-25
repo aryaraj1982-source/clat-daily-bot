@@ -75,4 +75,4 @@ async def send():
     for chunk in [brief[i:i+4000] for i in range(0, len(brief), 4000)]:
         await bot.send_message(TELEGRAM_CHANNEL_ID, chunk)
     print("✅ Sent to Telegram!")
-asyncio.run(send())   sorry i feel this is the file which is working . as earlier file contain audio command also & it is without that command
+asyncio.run(send())
